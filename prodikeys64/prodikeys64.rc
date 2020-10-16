@@ -1,0 +1,59 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PIANOICON          ICON                    "prodikeys64.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+IDD_DLG_DIALOG DIALOGEX 0, 0, 220, 92
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX |
+    WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Prodikeys MIDI Interface Driver"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+CTEXT           "Prodikeys MIDI Interface Driver by CrazyRedMachine\r\n\r\nBased on teVirtualMIDI driver by Tobias Erichsen\r\n\
+                Based on Linux prodikeys_hid driver by Don Prince\r\n",
+IDC_STATIC,0,20,220,92
+DEFPUSHBUTTON   "Close",IDOK,80,65,50,16
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "prodikeys64.manifest"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////

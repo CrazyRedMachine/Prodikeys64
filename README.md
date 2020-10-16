@@ -42,6 +42,8 @@ Thanks to WinUSB driver we can now communicate with the Prodikeys keyboard, but 
 
 ## Prodikeys64
 
+With both pre-requisites installed, you can now use Prodikeys64
+
 - Download latest release or build it yourself.
 - Run prodikeys64.exe
 

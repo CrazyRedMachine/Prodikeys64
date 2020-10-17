@@ -88,7 +88,7 @@ Zadig is an easy to use standalone tool (no installation required) to install Wi
 
 Upon successful installation, it should look like this :
 
-TODO:insert picture
+![zadig_ok](https://github.com/CrazyRedMachine/Prodikeys64/blob/main/zadig_ok.png?raw=true)
 
 ## teVirtualMIDI driver
 

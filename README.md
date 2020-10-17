@@ -28,7 +28,8 @@ FN Key will toggle an on/off state, with the F led indicator lighting up when fn
   - When midi_mode active: previous octave)
   - When midi_mode active and fn_state active : previous instrument
 
-- Instant Messaging (UNIMPLEMENTED)
+- Instant Messaging
+  - When midi_mode inactive : (UNIMPLEMENTED)
   - When midi_mode active: next octave
   - When midi_mode active and fn_state active : next instrument
 

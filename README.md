@@ -95,7 +95,7 @@ Upon successful installation, it should look like this :
 
 Thanks to WinUSB driver we can now communicate with the Prodikeys keyboard, but we need another component to make it work like a MIDI peripheral.
 
-- Download and install [loopMidi](http://www.tobias-erichsen.de/software/loopmidi.html) by Tobias Erichsen.
+- Download and install [loopMidi](http://www.tobias-erichsen.de/software/loopmidi.html) (or [teVirtualMIDI SDK](https://www.tobias-erichsen.de/wp-content/uploads/2020/01/teVirtualMIDISDKSetup_1_3_0_43.zip)) by Tobias Erichsen.
 - During installation you will be prompted to install the midi driver. Please proceed.
 
 ## Prodikeys64

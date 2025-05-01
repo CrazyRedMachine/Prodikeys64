@@ -97,18 +97,40 @@ Thanks to WinUSB driver we can now communicate with the Prodikeys keyboard, but 
 
 - Download and install [loopMidi](http://www.tobias-erichsen.de/software/loopmidi.html) (or [teVirtualMIDI SDK](https://www.tobias-erichsen.de/wp-content/uploads/2020/01/teVirtualMIDISDKSetup_1_3_0_43.zip)) by Tobias Erichsen.
 - During installation you will be prompted to install the midi driver. Please proceed.
+- Once installed, in Win+X -> Device Manager you should be able to see the "teVirtualMIDI device"
+
+![Image](https://github.com/user-attachments/assets/47b77d1c-d4a7-4336-b705-4857202bfdc4)
 
 ## Prodikeys64
 
 With both pre-requisites installed, you can now use Prodikeys64
 
 - Download latest release or build it yourself.
-- Run prodikeys64.exe
-
-A systray icon should appear, you can right-click it to display a menu, or you can just press the piano function key on top left of your prodikeys keyboard to enable piano keys.
-An input midi interface should now be detected by any music software with midi support.
-Enjoy :)
+- Extract and run prodikeys64.exe, this should give you a little piano icon system tray : 
  
+![Image](https://github.com/user-attachments/assets/50873095-1ed4-456a-8aa0-0188cb868f20)
+
+- If you right click on it you can select "Activate Midi" (or you can also press the top left piano key on your prodikeys)
+![Image](https://github.com/user-attachments/assets/14ec07a1-4d53-408e-8c89-59340bbd2c80)
+
+You should now be able to find and use "Prodikeys MIDI Interface" in your midi-compatible software (if you don't have one, see the next section about Synthesia)
+
+## Using prodikeys with Synthesia
+
+If you need something to test your prodikeys with, I recommend the excellent Synthesia piano learning app
+
+- Download and install Synthesia ( https://synthesiagame.com/get?platform=win )
+- Run Prodikeys64.exe and activate midi 
+- Run Synthesia and navigate to the settings menu, you should see "Prodikeys MIDI Interface"
+
+![Image](https://github.com/user-attachments/assets/12e43fb8-e8b7-455c-988b-19394ab5cb72)
+
+Click on it then click "Use input from this device", and finally press the first and last key of the piano to correctly set the 37-key range (you should see the keys you press turning green on the app, and hear them)
+
+![Image](https://github.com/user-attachments/assets/04fcde9d-be45-4371-8fa4-4646663f9d89)
+
+Congrats you can use your prodikeys with synthesia now :)
+
 # Build Instructions
 
 I use CLion with Visual Studio 2017 as the build toolchain.
